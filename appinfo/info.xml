@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>user_manager</id>
+	<namespace>user_manager</namespace>
+    <name>User Manager</name>
+    <summary>Test Application</summary>
+    <description>Test Description</description>
+    <version>1.0.0</version>
+    <licence>agpl</licence>
+    <author>Niklas Welpinghaus</author>
+    <category>multimedia</category>
+	<website>http://friedenseiche.com</website>
+    <bugs>http://192.168.178.20/nextcloud/apps/user_manager/</bugs>
+    <dependencies>
+        <nextcloud min-version="10"/>
+    </dependencies>
+	<navigations>
+		<navigation>
+			<name>User Manager</name>
+			<route>user_manager.page.index</route>
+			<order>0</order>
+		</navigation>
+	</navigations>
+</info>
